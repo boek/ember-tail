@@ -5,7 +5,7 @@ loadEnvConfig(process.cwd())
 
 export default {
 	schema: "./db/schema.ts",
-	out: "./drizzle",
+	out: "./db",
 	driver: 'turso',
 	dbCredentials: {
 		url: process.env.DATABASE_URL as string,

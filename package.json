@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "studio": "drizzle-kit studio --port 3333",
-    "generate": "drizzle-kit generate:sqlite --out ./drizzle/migrations --breakpoints --schema=./db/schema.ts",
+    "generate": "drizzle-kit generate:sqlite --out ./db/migrations --breakpoints --schema=./db/schema.ts",
     "migrate": "tsx db/migrate"
   },
   "dependencies": {
